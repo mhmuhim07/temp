@@ -1,40 +1,29 @@
 #include<bits/stdc++.h>
-using namespace std;
-
-#define vi vector<int>
-#define vl vector<ll>
-#define yes cout<<"YES"<<endl
-#define no cout<<"NO"<<endl
-#define srt(v) sort(v.begin(),v.end())
-#define rsrt(v) sort(v.rbegin(),v.rend())
+#include<ext/pb_ds/assoc_container.hpp>
+#include<ext/pb_ds/tree_policy.hpp>
+using namespace __gnu_pbds;
+ 
 #define ll long long
-#define fo(i,a,n) for(ll i=a;i<n;i++)
-#define all(v) (v).begin(),(v).end()
-#define rall(v) (v).rbegin(),(v).rend()
-#define pb push_back
 #define endl '\n'
-#define ff first
-#define ss second
-#define fast ios_base::sync_with_stdio(false);cin.tie(0),cout.tie(0);
+ 
+template <typename T> using o_set = tree<T, null_type, greater<T>, rb_tree_tag, tree_order_statistics_node_update>;
+template <typename T> using _set = tree<T, null_type, less<T>, rb_tree_tag, tree_order_statistics_node_update>;
 
-ll gcd ( ll a, ll b ) { return __gcd ( a, b ); }
-ll lcm ( ll a, ll b ) { return a * ( b / gcd ( a, b ) ); }
-
-void solve()
-{
+void solve(int cs){
+    int n;
+    cin>>n;
     
-
 }
+   
 int main()
 {
 
-    fast;
-
-    int t=1;
+    ios_base::sync_with_stdio(false);cin.tie(0);
+    int t=1,cs=0;
     cin >> t;
     while(t--)
     {
-        solve();
+        solve(++cs);
     }
 
     return 0;
