@@ -5,6 +5,7 @@ using namespace __gnu_pbds;
 using namespace std;
 #define ll long long
 #define endl '\n'
+const int N = 1e5+12;
  
 template <typename T> using o_set = tree<T, null_type, greater<T>, rb_tree_tag, tree_order_statistics_node_update>;
 template <typename T> using _set = tree<T, null_type, less<T>, rb_tree_tag, tree_order_statistics_node_update>;
